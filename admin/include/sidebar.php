@@ -9,27 +9,79 @@
 						</div>
 						<ul class="main-navigation-menu">
 							<li>
-								<a href="pending.php">
+								<a href="adddoctor.php">
 									<div class="item-content">
 										<div class="item-media">
 											<i class="ti-home"></i>
 										</div>
 										<div class="item-inner">
 
-											<span class="title">Pending Call</span>
+											<span class="title">Add Doctor</span>
 										</div>
 									</div>
 								</a>
+								   <!-- <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="adddoctor.php"> Add</a></li>
+                                      <li><a class="dropdown-item" href="doctorview.php">  View</a></li>
+                                  </ul> -->
 							</li>
 							<li>
-								<a href="index.php">
+								<a href="doctorview.php">
 									<div class="item-content">
 										<div class="item-media">
 											<i class="ti-home"></i>
 										</div>
 										<div class="item-inner">
 
-											<span class="title">Open Call</span>
+											<span class="title">View Doctor</span>
+										</div>
+									</div>
+								</a>
+								   
+							</li>
+							<li>
+								<a href="reception_add.php">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-home"></i>
+										</div>
+										<div class="item-inner">
+
+											<span class="title"> Add Reception</span>
+										</div>
+									</div>
+								</a>
+								<!-- <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="reception_add.php"> Add</a></li>
+                                      <li><a class="dropdown-item" href="reception_view.php">  View</a></li>
+                                  </ul> -->
+
+							</li>
+							<li>
+									<a href="reception_view.php">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-home"></i>
+										</div>
+										<div class="item-inner">
+
+											<span class="title"> View Reception</span>
+										</div>
+									</div>
+								</a>
+</li>	
+							
+
+
+<li>
+								<a href="view_patient_register.php">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-file"></i>
+										</div>
+										<div class="item-inner">
+
+											<span class="title">View Pasient  Register </span>
 										</div>
 									</div>
 								</a>
@@ -37,21 +89,18 @@
 
 
 <li>
-								<a href="closed.php">
+								<a href="view_all_appointment.php">
 									<div class="item-content">
 										<div class="item-media">
 											<i class="ti-file"></i>
 										</div>
 										<div class="item-inner">
 
-											<span class="title">Closed Call </span>
+											<span class="title">View All Appointment </span>
 										</div>
 									</div>
 								</a>
 							</li>
-
-
-
 
 
 

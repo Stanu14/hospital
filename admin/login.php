@@ -4,7 +4,7 @@ if(!isset($_SESSION))
 {
     session_start();
 }
-if(isset($_SESSION['admin']))
+if(isset($_SESSION['hospital']))
 {
   header('Location:index.php');
 
@@ -16,7 +16,7 @@ else{
 
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Admin</title>
+<title>Hospital</title>
 <link href="bootstrap/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
 <style media="screen">
 .navigation_bottom_border01 {

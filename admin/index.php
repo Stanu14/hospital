@@ -4,11 +4,11 @@ if(!isset($_SESSION))
 {
     session_start();
 }
-if(isset($_SESSION['admin']))
+if(isset($_SESSION['hospital']))
 
 
 {
-  $staff_id = $_SESSION['admin'];
+  $staff_id = $_SESSION['hospital'];
 
 
 

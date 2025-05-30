@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Patient</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Register New Patient</h2>
+    <form id="registerForm">
+        <label>Name:</label> <input type="text" name="name" required><br>
+        <label>Email:</label> <input type="email" name="email" required><br>
+        <label>Phone:</label> <input type="text" name="phone" required><br>
+        <button type="submit">Register</button>
+    </form>
+
+    <script>
+        $("#registerForm").submit(function(e) {
+            e.preventDefault();
+            $.post("register_patient.php", $(this).serialize(), function(response) {
+                alert(response);
+            });
+        });
+    </script>
+</body>
+</html>

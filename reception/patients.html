@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Patients</title>
+</head>
+<body>
+    <h2>Registered Patients</h2>
+    <div id="patientList"></div>
+
+    <script>
+        fetch("view_patients.php")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("patientList").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

@@ -3,7 +3,7 @@ if(!isset($_SESSION))
 {
       session_start();
 }
-if(!isset($_SESSION['admin']))
+if(!isset($_SESSION['hospital']))
 {
   $username = $_POST['username'];
 
@@ -31,7 +31,7 @@ if(!isset($_SESSION['admin']))
    {
 
 
-          $_SESSION['admin'] = $username;
+          $_SESSION['hospital'] = $username;
           header("location: index.php");
 
    	}
