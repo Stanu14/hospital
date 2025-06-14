@@ -46,14 +46,12 @@ table  tr td, table tr th{
             <th>Sl.No</th>
             <td>Name</td>
             <td>Email</td>
-
             <td>Phone</td>
             <td>Date</td>
             <td>view</td>
           </tr>
         </thead>
         <tbody>
-
             <?php
             $a=1;
             $sql1 = "SELECT * from `patients`  order by id desc";
@@ -68,7 +66,6 @@ table  tr td, table tr th{
             <td><?=$row1['phone'];?></td>
             <td><?=$row1['reg_date'];?></td>
             <td> <a href="patient_details.php?id=<?=$id?>"><i class="fa fa-eye"></i></a></td>
-
           </tr>
         <?php }  ?>
         </tbody>
@@ -80,10 +77,8 @@ table  tr td, table tr th{
             <td></td>
             <td></td>
             <td></td>
-
           </tr>
         </tfoot>
-
       </table>
 
 
